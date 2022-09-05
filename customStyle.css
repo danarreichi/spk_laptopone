@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+:root {
+    --backgroundMain: #e6f4ff;
+    --dividerColor: #195685;
+}
+
+.formLogin * {
+    margin: 1em 0;
+}
+
+#labelLogin {
+    text-align: center;
+    font-size: 2em;
+}
+
+#sidebar * {
+    margin: 0.5em 1.5em;
+}
+
+.coreTab {
+    background-color: var(--backgroundMain);
+}
+
+.tableTitle {
+    font-size: 3em;
+    position: relative;
+}
+
+#buttonHitung {
+    position: relative;
+    top: 1.5em
+}
+
+.inputData {
+    margin: 1em 0;
+}
+
+.tr_hasil .data{
+    cursor: pointer;
+    transition: 0.25s all ease-in-out;
+}
+
+.tr_hasil .data:hover{
+    font-weight: 600;
+}

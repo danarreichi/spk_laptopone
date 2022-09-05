@@ -1,0 +1,12 @@
+.body {
+    margin: 0 !important;
+}
+
+#formLogin * {
+    margin: 0.5em 0;
+}
+
+#formLogin {
+    position: relative;
+    top: -4em;
+}
